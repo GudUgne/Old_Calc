@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge"> 
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+    </style> 
+
+<body>
+   <div class="calculator-grid">
+       <div class="output">
+           <div class="current-operand"><span id="textview"> </span></div>
+       </div>
+       <button onclick="trinti_viska()" class="span-two">AC</button>
+       <button onclick="trinti()">DEL</button>
+       <button onclick="taskas()">.</button>
+       <button onclick="trupmena()">1/x</button>
+       <button onclick="saknis()">√x</button>
+       <button onclick="kelimas()">x^y</button>
+       <button onclick="psaknis()">y√x</button>
+       <button onclick="sinusas()">sin</button>
+       <button onclick="cosinusas()">cos</button>
+       <button onclick="tangentas()">tg</button>
+       <button onclick="cotangentas()">ctg</button>
+       <button onclick="iterpti(1)">1</button>
+       <button onclick="iterpti(2)">2</button>
+       <button onclick="iterpti(3)">3</button>
+       <button onclick="daugyba()">*</button>
+       <button onclick="iterpti(4)">4</button>
+       <button onclick="iterpti(5)">5</button>
+       <button onclick="iterpti(6)">6</button>
+       <button onclick="sudetis()">+</button>
+       <button onclick="iterpti(7)">7</button>
+       <button onclick="iterpti(8)">8</button>
+       <button onclick="iterpti(9)">9</button>
+       <button onclick="atimtis()">-</button>
+       <button onclick="iterpti(0)">0</button>
+       <button onclick="rezultatas()" class="span-two">=</button>
+       <button onclick="dalyba()">/</button>
+   </div> 
+</body>
+</html>
